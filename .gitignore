@@ -1,0 +1,13 @@
+# Directory
+bin/
+target/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Maven specific
+/.mvn
+/mvnw
+/mvnw.cmd
