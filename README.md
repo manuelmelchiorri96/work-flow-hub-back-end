@@ -21,7 +21,7 @@ Questo è il backend del progetto finale, che gestisce la logica di business e f
 1. Clonare il repository:
 
    ```bash
-   git clone https://github.com/manuelmelchiorri96/progetto-finale-backend.git
+   git clone https://github.com/manuelmelchiorri96/work-flow-hub-back-end.git
 
 2. Importare il progetto in un IDE compatibile con Maven (ad esempio IntelliJ IDEA).
 
