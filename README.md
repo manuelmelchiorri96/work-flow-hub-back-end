@@ -14,7 +14,7 @@ Questo è il backend del progetto finale, che gestisce la logica di business e f
 - Java Development Kit (JDK) 8 o versioni successive
 - Maven
 - Un server Jakarta EE (ad esempio Apache TomEE)
-- Un database SQL (ad esempio MySQL)
+- Un database MySQL
 
 ## Configurazione
 
@@ -23,11 +23,12 @@ Questo è il backend del progetto finale, che gestisce la logica di business e f
    ```bash
    git clone https://github.com/manuelmelchiorri96/work-flow-hub-back-end.git
 
-2. Importare il progetto in un IDE compatibile con Maven (ad esempio IntelliJ IDEA).
+2. Importare il progetto in un IDE compatibile con Maven (ad esempio IntelliJ IDEA o Eclipse).
 
-3. Configurare il server Jakarta EE nel tuo IDE e avviare il server.
+3. Configurare il server TomEE nel tuo IDE e avviare il server.
 
-4. Creare un database SQL e configurare le credenziali di accesso nel file `persistence.xml`:
+4. Creare un database MySQL e configurare le credenziali di accesso nel file `persistence.xml` come nell' esempio. 
+   Il `persistence.xml` nel progetto è configurato per l'accesso al DB remoto.
 
 ```xml
 <persistence-unit name="persistence_unit">
