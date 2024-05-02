@@ -27,8 +27,7 @@ Questo è il backend del progetto finale, che gestisce la logica di business e f
 
 3. Configurare il server TomEE nel tuo IDE e avviare il server.
 
-4. Creare un database MySQL e configurare le credenziali di accesso nel file `persistence.xml` come nell' esempio. 
-   Il `persistence.xml` nel progetto è configurato per l'accesso al DB remoto già configurato.
+4. Il `persistence.xml` nel progetto è configurato per l'accesso al DB remoto già configurato.
 
 ```xml
 <persistence-unit name="persistence_unit">
