@@ -1,6 +1,6 @@
 # Progetto Finale Backend: Work_Flow_Hub
 
-Questo è il backend del progetto finale, che gestisce la logica di business e fornisce un'API per interagire con il database.
+Questo è il backend del progetto finale per start2impact, che gestisce la logica di business e fornisce un'API per interagire con il database.
 
 ## Tecnologie utilizzate
 
