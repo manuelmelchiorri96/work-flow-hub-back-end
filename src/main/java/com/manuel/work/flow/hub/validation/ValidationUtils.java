@@ -11,8 +11,11 @@ import com.manuel.work.flow.hub.vo.ProgettoVO;
 import com.manuel.work.flow.hub.vo.TaskVO;
 
 import java.time.LocalDate;
+import java.util.regex.Pattern;
 
 public class ValidationUtils {
+
+    private static final Pattern EMAIL_PATTERN = Pattern.compile("^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$");
 
     public static void validateFields(String nome, String cognome, String email, String password, String ruolo, String expectedRuolo) {
         if (nome == null || nome.isEmpty() ||
@@ -68,8 +71,7 @@ public class ValidationUtils {
     }
 
     private static boolean isValidEmail(String email) {
-        String emailPattern = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
-        return email.matches(emailPattern);
+        return EMAIL_PATTERN.matcher(email).matches();
     }
 
     private static boolean isValidPassword(String password) {
