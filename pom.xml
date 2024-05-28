@@ -15,7 +15,7 @@
         <sonar.host.url>http://localhost:9000</sonar.host.url>
         <sonar.login>admin</sonar.login>
         <sonar.password>alberghiero</sonar.password>
-        <sonar.token>sqp_749f86d1260485fe2151b35ac159c64b7349834e</sonar.token>
+        <sonar.token>sqp_ec5a653bffbbf9e707dfb737922be3fc7be8e740</sonar.token>
         <sonar.projectKey>work-flow-hub-back-end</sonar.projectKey>
         <sonar.projectName>'work-flow-hub-back-end'</sonar.projectName>
     </properties>
