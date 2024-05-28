@@ -12,9 +12,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <junit.version>5.9.2</junit.version>
 
-        <sonar.host.url>http://localhost:9000/</sonar.host.url>
-        <sonar.login>sqp_ec5a653bffbbf9e707dfb737922be3fc7be8e740</sonar.login>
         <sonar.projectKey>work-flow-hub-back-end</sonar.projectKey>
+        <sonar.projectName>work-flow-hub-back-end</sonar.projectName>
+        <sonar.host.url>http://localhost:9000/</sonar.host.url>
+        <sonar.token>sqp_ec5a653bffbbf9e707dfb737922be3fc7be8e740</sonar.token>
     </properties>
     <dependencies>
         <dependency>
